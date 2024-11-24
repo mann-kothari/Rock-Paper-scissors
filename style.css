@@ -67,3 +67,83 @@ img {
     padding: 1rem;
     border-radius: 1rem;
 }
+
+@media(max-width:700px) {
+    .choices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        margin-top: 5rem;
+    }
+
+    .choice {
+        height: 30vmin;
+        width: 30vmin;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        height: 27vmin;
+        width: 27vmin;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+}
+
+@media(min-width: 300px) and (max-width:500px) {
+    .choices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 5rem;
+    }
+
+    .choice {
+        height: 30vmin;
+        width: 30vmin;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        height: 27vmin;
+        width: 27vmin;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .score-board {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7rem;
+        margin-top: 2.6rem;
+        gap: 3.5rem;
+    }
+
+    #user,
+    #comp {
+        font-size: 2.7rem;
+    }
+
+    .container {
+        margin-top: 4rem;
+    }
+
+    #msg {
+        background-color: #081b31;
+        color: white;
+        font-size: 1.7rem;
+        display: inline;
+        padding: 0.7rem;
+        border-radius: 0.7rem;
+    }
+}
